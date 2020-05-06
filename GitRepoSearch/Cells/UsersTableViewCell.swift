@@ -17,8 +17,6 @@ class UsersTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
 
-        self.imgUserProfilePic.layer.cornerRadius = self.imgUserProfilePic.frame.width/2
-        self.imgUserProfilePic.clipsToBounds = true
-        
+        self.imgUserProfilePic.makeRounded()        
     }
 }

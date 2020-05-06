@@ -1,3 +1,10 @@
+//
+//  NetworkManager.swift
+//  GitRepoSearch
+//
+//  Created by Bhushan on 06/05/20.
+//  Copyright © 2020 Bhushan. All rights reserved.
+//
 
 import Foundation
 import Alamofire

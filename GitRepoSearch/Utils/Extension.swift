@@ -27,3 +27,14 @@ extension UITableView{
            }
        }
 }
+
+
+extension UIView{
+
+    func makeRounded(){
+        self.layer.cornerRadius = self.frame.width/2
+        self.clipsToBounds = true
+    }
+
+}
+
